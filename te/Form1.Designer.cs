@@ -31,6 +31,7 @@ namespace te
             this.checkBox1 = new Gizmox.WebGUI.Forms.CheckBox();
             this.comboBox1 = new Gizmox.WebGUI.Forms.ComboBox();
             this.groupBox1 = new Gizmox.WebGUI.Forms.GroupBox();
+            this.button1 = new Gizmox.WebGUI.Forms.Button();
             this.SuspendLayout();
             // 
             // checkBox1
@@ -60,8 +61,17 @@ namespace te
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(212, 109);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "button1";
+            // 
             // Form1
             // 
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.checkBox1);
@@ -76,5 +86,6 @@ namespace te
         private Gizmox.WebGUI.Forms.CheckBox checkBox1;
         private Gizmox.WebGUI.Forms.ComboBox comboBox1;
         private Gizmox.WebGUI.Forms.GroupBox groupBox1;
+        private Gizmox.WebGUI.Forms.Button button1;
     }
 }
